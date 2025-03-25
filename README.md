@@ -1,7 +1,7 @@
 # ebook-organiser
 Categorise ebooks into subject areas
 
-This works on a directory continaing ebooks (PDF or epub) and tries to sort them into maeningful subdirectories.
+This works on a directory continaing ebooks (PDF or epub) and tries to sort them into meaningful subdirectories.
 
 
 How it works
@@ -9,7 +9,7 @@ Metadata Extraction:
   Tries to extract metadata (title, author, ISBN) from EPUB and PDF files.
 
 Google Books API Lookup:
-  If metadata extraction fails, tries the Google Books API using the file name (with underscores replaced by spaces).
+  If metadata extraction fails, tries the Google Books API using the file name.
 
 File Name-Based Categorization:
   If both metadata and Google Books API lookup fail, falls back to file name-based categorization.
