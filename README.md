@@ -30,7 +30,9 @@ This works on a directory continaing ebooks (PDF or epub) and tries to sort them
 ### Installing:
 
   download and extract to a directory in your path
+  
   chmod +x ./run_pdf_categorizer.sh 
+  
   This will create a virtual python environment, and install any missing libaries.
 
 ### Running: 
